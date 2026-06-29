@@ -1,5 +1,10 @@
 <div align="center">
-  <img src="assets/kvae_audio.png" alt="KVAE-Audio architecture" width="500" style="display: block; margin: 0 auto;"/>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/kvae_audio_white.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/kvae_audio_black.png">
+    <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  </picture>
 
   <a href="https://huggingface.co/kandinskylab/KVAE-Audio">🤗HuggingFace</a> | <a href="https://github.com/kandinskylab/kvae">KVAE GitHub</a> | <a href="https://habr.com/ru/companies/sberbank/articles/1053410/">Habr article</a> | <a href="https://kandinskylab.ai/">Project Page</a> | Technical Report (soon)
 </div>
