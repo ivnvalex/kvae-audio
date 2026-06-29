@@ -6,7 +6,7 @@
 
 <h1>KVAE-Audio</h1>
 
-**KVAE-Audio** is a continuous, full-band (48 kHz) audio autoencoder. It compresses raw waveforms into a compact continuous latent and reconstructs them with high fidelity across speech, music, and general sound. The model is designed not only for faithful reconstruction, but as a _latent space for generative models_ — in our internal text-to-audio pipeline, swapping the autoencoder for KVAE-Audio improves generation quality under a fixed generator.
+**KVAE-Audio** is a continuous, full-band (48 kHz) audio autoencoder. It compresses raw waveforms into compact continuous latents and reconstructs them with high fidelity across speech, music, and general sound. The model is designed not only for faithful reconstruction, but as a _latent space for generative models_ — in our internal text-to-audio pipeline, swapping the autoencoder for KVAE-Audio improves generation quality under a fixed generator.
 
 ## Inference instruction
 
