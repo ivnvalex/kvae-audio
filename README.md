@@ -1,6 +1,6 @@
 # kvae-audio
 
-Minimal inference package for K-VAE-Audio.
+Minimal inference package for KVAE-Audio.
 Most of the code is adopted from [DAC](https://github.com/descriptinc/descript-audio-codec).
 This is a VAE version with continuous latent space and enhanced diffusability.
 
@@ -12,7 +12,7 @@ First install PyTorch (adjust for your CUDA setup):
 pip install torch==2.11.0 torchvision==0.26.0 torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cu128
 ```
 
-Then install K-VAE-Audio from the local package:
+Then install KVAE-Audio from the local package:
 
 ```bash
 pip install -e ./kvae-audio

@@ -6,7 +6,7 @@ with open("README.md") as f:
 setup(
     name="kvae-audio",
     version="1.0.0",
-    description="Minimal inference package for K-VAE-Audio.",
+    description="Minimal inference package for KVAE-Audio.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
