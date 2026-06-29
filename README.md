@@ -26,6 +26,17 @@ pip install -e ./kvae-audio
 
 Tested with Python 3.14.
 
+### Run inference
+
+Place input wavs in `input_samples`. Reconstructions are written to `output_samples`.
+
+```bash
+python scripts/infer.py \
+  --weights_path kvae-audio.pt \
+  --input_path input_samples \
+  --output_path output_samples
+```
+
 ### Evaluate reconstructions
 
 Compare reference wavs in `input_samples` against reconstructions in `output_samples` (same filenames). Writes `metrics.csv` to `output_samples`.
