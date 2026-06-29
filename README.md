@@ -1,6 +1,7 @@
 # KVAE-Audio
 
 Minimal inference package for KVAE-Audio.
+Pretrained weights can be found on [Hugging Face 🤗](https://huggingface.co/kandinskylab/KVAE-Audio).
 Most of the code is adopted from [DAC](https://github.com/descriptinc/descript-audio-codec).
 This is a VAE version with continuous latent space and enhanced diffusability.
 
