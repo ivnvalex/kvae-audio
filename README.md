@@ -1,4 +1,4 @@
-# kvae-audio
+# KVAE-Audio
 
 Minimal inference package for KVAE-Audio.
 Most of the code is adopted from [DAC](https://github.com/descriptinc/descript-audio-codec).
@@ -26,7 +26,7 @@ Place input wavs in `input_samples`. Reconstructions are written to `output_samp
 
 ```bash
 python scripts/infer.py \
-  --weights_path kvae-audio_1_0_weights.pt \
+  --weights_path kvae-audio.pt \
   --input_path input_samples \
   --output_path output_samples
 ```
@@ -50,7 +50,7 @@ import torch
 import soundfile as sf
 from kvae_audio import KVAEAudio
 
-model = KVAEAudio.load("kvae-audio_1_0_weights.pt", map_location="cpu")
+model = KVAEAudio.load("kvae-audio.pt", map_location="cpu")
 model.eval()
 
 data, sr = sf.read("audio.wav")

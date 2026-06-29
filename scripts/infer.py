@@ -38,7 +38,7 @@ def infer_signal(
 @argbind.bind(without_prefix=True)
 @torch.no_grad()
 def main(
-    weights_path: str = "kvae-audio_1_0_weights.pt",
+    weights_path: str = "kvae-audio.pt",
     input_path: str = "input_samples",
     output_path: str = "output_samples",
 ):
