@@ -117,13 +117,13 @@ https://github.com/user-attachments/assets/5c2a5bcc-6806-4236-bd59-f390947190d8
 <a href="assets/audio_examples/prompt_01/mma.wav">Download</a></td>
 <td align="center"><b>DACVAE MovieGen</b>
 <details>
-  
 
-https://github.com/user-attachments/assets/85503886-554a-45b1-be99-646124031983
+
+https://github.com/user-attachments/assets/bc927d2e-6e76-4a11-a608-8620a5a3ce15
 
 
 </details>
-<a href="assets/audio_examples/prompt_01/movigen.wav">Download</a></td>
+<a href="assets/audio_examples/prompt_01/moviegen.wav">Download</a></td>
 <td align="center"><b>SAME-L</b>
 <details>
   
@@ -148,18 +148,32 @@ https://github.com/user-attachments/assets/8d4d747d-8d47-4c29-a80d-7403e6c5f9e6
 <tr>
 <td align="center"><b>KVAE-Audio</b>
 <details>
+
+https://github.com/user-attachments/assets/531268ec-e1c9-444b-a742-dd4f4f09fa87
+
 </details>
 <a href="assets/audio_examples/prompt_02/kvae.wav">Download</a></td>
 <td align="center"><b>MMAudio</b>
 <details>
+
+https://github.com/user-attachments/assets/5fc4c691-6132-40ec-964d-b70effc439e1
+
 </details>
 <a href="assets/audio_examples/prompt_02/mma.wav">Download</a></td>
 <td align="center"><b>DACVAE MovieGen</b>
 <details>
+
+
+https://github.com/user-attachments/assets/10f17bb1-a61e-446b-b903-0436b4062e0c
+
+
 </details>
-<a href="assets/audio_examples/prompt_02/movigen.wav">Download</a></td>
+<a href="assets/audio_examples/prompt_02/moviegen.wav">Download</a></td>
 <td align="center"><b>SAME-L</b>
 <details>
+
+https://github.com/user-attachments/assets/312ef06e-872c-46cd-bf33-72c34d5d5775
+
 </details>
 <a href="assets/audio_examples/prompt_02/samel.wav">Download</a></td>
 </tr>
