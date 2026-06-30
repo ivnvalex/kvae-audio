@@ -217,8 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Media
-*.wav
+# # Media
+# *.wav
 
 # Logs
 *.csv
