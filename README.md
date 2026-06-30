@@ -77,6 +77,8 @@ sf.write("output.wav", audio.squeeze(0).T.numpy(), sr)
 
 ## Evaluation results
 
+Generative quality is established under a **fixed generator** — same DiT architecture, training data, and number of steps — varying only the autoencoder. We report objective generation metrics and blind human side-by-side below.
+
 ### Evaluation of latent space qualities for generation
 
 <img src="assets/sbs_same_l.png" />
@@ -87,7 +89,7 @@ sf.write("output.wav", audio.squeeze(0).T.numpy(), sr)
 
 ### Audio Generation Examples
 
-Below are qualitative examples generated from the same text prompts using four different models. For a fair comparison, all models use a DiT 0.6B architecture and were trained with identical hyperparameters.
+Below are qualitative examples generated from the same text prompts using four different models.
 
 #### Example 1 (speech)
 
@@ -191,26 +193,38 @@ https://github.com/user-attachments/assets/312ef06e-872c-46cd-bf33-72c34d5d5775
 <tr>
 <td align="center"><b>KVAE-Audio</b>
 <details>
+
+https://github.com/user-attachments/assets/3742a5f9-f050-4a56-835d-dafd5b7265ea
+
 </details>
 <a href="assets/audio_examples/prompt_03/kvae.wav">Download</a></td>
 <td align="center"><b>MMAudio</b>
 <details>
+
+https://github.com/user-attachments/assets/545539f9-b981-41dc-8299-1f49bce07b0c
+
 </details>
 <a href="assets/audio_examples/prompt_03/mma.wav">Download</a></td>
 <td align="center"><b>DACVAE MovieGen</b>
 <details>
+
+https://github.com/user-attachments/assets/147041ed-8599-4976-b818-026b4dd74f0b
+
 </details>
 <a href="assets/audio_examples/prompt_03/moviegen.wav">Download</a></td>
 <td align="center"><b>SAME-L</b>
 <details>
+  
+
+https://github.com/user-attachments/assets/3dfc1d56-a9e8-4d1e-81b5-b76844a268da
+
+
 </details>
 <a href="assets/audio_examples/prompt_03/samel.wav">Download</a></td>
 </tr>
 </table>
 
 ---
-
-Generative quality is established under a **fixed generator** — same DiT architecture, training data, and number of steps — varying only the autoencoder. We report objective generation metrics and blind human side-by-side below.
 
 ### AudioCaps test set
 
