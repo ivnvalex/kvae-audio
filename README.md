@@ -85,6 +85,9 @@ sf.write("output.wav", audio.squeeze(0).T.numpy(), sr)
 
 <img src="assets/sbs_mmaudio.png" />
 
+### Examples of generation
+...
+
 Generative quality is established under a **fixed generator** — same DiT architecture, training data, and number of steps — varying only the autoencoder. We report objective generation metrics and blind human side-by-side below.
 
 ### AudioCaps test set
