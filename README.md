@@ -97,12 +97,42 @@ Below are qualitative examples generated from the same text prompts using four d
 
 <table>
 <tr>
-<td align="center"><b>KVAE-Audio</b><br><audio controls src="assets/audio_examples/prompt_01/kvae.wav"></audio><br><a href="assets/audio_examples/prompt_01/kvae.wav">Download</a></td>
-<td align="center"><b>MMAudio</b><br><audio controls src="assets/audio_examples/prompt_01/mma.wav"></audio><br><a href="assets/audio_examples/prompt_01/mma.wav">Download</a></td>
-</tr>
-<tr>
-<td align="center"><b>DACVAE MovieGen</b><br><audio controls src="assets/audio_examples/prompt_01/movigen.wav"></audio><br><a href="assets/audio_examples/prompt_01/movigen.wav">Download</a></td>
-<td align="center"><b>SAME-L</b><br><audio controls src="assets/audio_examples/prompt_01/samel.wav"></audio><br><a href="assets/audio_examples/prompt_01/samel.wav">Download</a></td>
+<td align="center"><b>KVAE-Audio</b>
+<details>
+  
+
+https://github.com/user-attachments/assets/0773c3f6-6fd3-45b5-b1a6-29963b2f3e16
+
+
+</details>
+<a href="assets/audio_examples/prompt_01/kvae.wav">Download</a></td>
+<td align="center"><b>MMAudio</b>
+<details>
+  
+
+https://github.com/user-attachments/assets/5c2a5bcc-6806-4236-bd59-f390947190d8
+
+
+</details>
+<a href="assets/audio_examples/prompt_01/mma.wav">Download</a></td>
+<td align="center"><b>DACVAE MovieGen</b>
+<details>
+  
+
+https://github.com/user-attachments/assets/85503886-554a-45b1-be99-646124031983
+
+
+</details>
+<a href="assets/audio_examples/prompt_01/movigen.wav">Download</a></td>
+<td align="center"><b>SAME-L</b>
+<details>
+  
+
+https://github.com/user-attachments/assets/8d4d747d-8d47-4c29-a80d-7403e6c5f9e6
+
+
+</details>
+<a href="assets/audio_examples/prompt_01/samel.wav">Download</a></td>
 </tr>
 </table>
 
