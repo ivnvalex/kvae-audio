@@ -85,8 +85,28 @@ sf.write("output.wav", audio.squeeze(0).T.numpy(), sr)
 
 <img src="assets/sbs_mmaudio.png" />
 
-### Examples of generation
-...
+### Audio Generation Examples
+
+Below are qualitative examples generated from the same text prompts using four different models.
+
+#### Example 1 (speech)
+
+**Prompt:**  
+> Low and gravelly, with a southern Russian accent, a man says slowly, &lt;S&gt;Я говорил тебе, что так и будет&lt;E&gt;. A sharp inhale precedes the line. The space is acoustically dry, with minimal room tone and a slight hiss.
+
+
+<table>
+<tr>
+<td align="center"><b>KVAE-Audio</b><br><audio controls src="assets/audio_examples/prompt_01/kvae.wav"></audio><br><a href="assets/audio_examples/prompt_01/kvae.wav">Download</a></td>
+<td align="center"><b>MMAudio</b><br><audio controls src="assets/audio_examples/prompt_01/mma.wav"></audio><br><a href="assets/audio_examples/prompt_01/mma.wav">Download</a></td>
+</tr>
+<tr>
+<td align="center"><b>DACVAE MovieGen</b><br><audio controls src="assets/audio_examples/prompt_01/movigen.wav"></audio><br><a href="assets/audio_examples/prompt_01/movigen.wav">Download</a></td>
+<td align="center"><b>SAME-L</b><br><audio controls src="assets/audio_examples/prompt_01/samel.wav"></audio><br><a href="assets/audio_examples/prompt_01/samel.wav">Download</a></td>
+</tr>
+</table>
+
+---
 
 Generative quality is established under a **fixed generator** — same DiT architecture, training data, and number of steps — varying only the autoencoder. We report objective generation metrics and blind human side-by-side below.
 
