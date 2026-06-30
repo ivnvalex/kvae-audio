@@ -87,7 +87,7 @@ sf.write("output.wav", audio.squeeze(0).T.numpy(), sr)
 
 ### Audio Generation Examples
 
-Below are qualitative examples generated from the same text prompts using four different models.
+Below are qualitative examples generated from the same text prompts using four different models. For a fair comparison, all models use a DiT 0.6B architecture and were trained with identical hyperparameters.
 
 #### Example 1 (speech)
 
@@ -176,6 +176,35 @@ https://github.com/user-attachments/assets/312ef06e-872c-46cd-bf33-72c34d5d5775
 
 </details>
 <a href="assets/audio_examples/prompt_02/samel.wav">Download</a></td>
+</tr>
+</table>
+
+---
+
+#### Example 3 (music)
+
+**Prompt:**  
+> In a large reverberant hall, a brass band launches into a lively march. Trumpets and cornets carry the melody while trombones drive the harmony, brisk and precise. Clean recording, natural reverb, faint equipment hiss.
+
+
+<table>
+<tr>
+<td align="center"><b>KVAE-Audio</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_03/kvae.wav">Download</a></td>
+<td align="center"><b>MMAudio</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_03/mma.wav">Download</a></td>
+<td align="center"><b>DACVAE MovieGen</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_03/moviegen.wav">Download</a></td>
+<td align="center"><b>SAME-L</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_03/samel.wav">Download</a></td>
 </tr>
 </table>
 
