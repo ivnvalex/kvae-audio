@@ -138,6 +138,35 @@ https://github.com/user-attachments/assets/8d4d747d-8d47-4c29-a80d-7403e6c5f9e6
 
 ---
 
+#### Example 2 (background)
+
+**Prompt:**  
+> In a home kitchen, oil sizzles in a pan, a knife chops on a board, and a woman hums softly in Russian, a refrigerator humming beneath it all. Small kitchen, light reverberation. High-fidelity.
+
+
+<table>
+<tr>
+<td align="center"><b>KVAE-Audio</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_02/kvae.wav">Download</a></td>
+<td align="center"><b>MMAudio</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_02/mma.wav">Download</a></td>
+<td align="center"><b>DACVAE MovieGen</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_02/movigen.wav">Download</a></td>
+<td align="center"><b>SAME-L</b>
+<details>
+</details>
+<a href="assets/audio_examples/prompt_02/samel.wav">Download</a></td>
+</tr>
+</table>
+
+---
+
 Generative quality is established under a **fixed generator** — same DiT architecture, training data, and number of steps — varying only the autoencoder. We report objective generation metrics and blind human side-by-side below.
 
 ### AudioCaps test set
