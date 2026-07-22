@@ -23,9 +23,10 @@ First install PyTorch (adjust for your CUDA setup):
 pip install torch==2.11.0 torchvision==0.26.0 torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cu128
 ```
 
-Then install KVAE-Audio from the local package:
+Then clone the repository and install KVAE-Audio from the local package:
 
 ```bash
+git clone https://github.com/kandinskylab/kvae-audio.git
 pip install -e ./kvae-audio
 ```
 
