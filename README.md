@@ -289,7 +289,7 @@ Reconstruction is evaluated on open datasets across domains (the released weight
 
 ```
 @misc{kvae_audio_2026,
-    author = {Ivan Kirillov, Denis Parkhomenko, Alexandr Ivanov, Azat Saginbaev, Egor Silvestrov, Denis Dimitrov},
+    author = {Ivan Kirillov, Denis Parkhomenko, Alexander Ivanov, Azat Saginbaev, Egor Silvestrov, Denis Dimitrov},
     title = {KVAE-Audio: a full-band continuous audio tokenizer for generative models},
     howpublished = {\url{https://github.com/kandinskylab/kvae-audio}},
     year = 2026
