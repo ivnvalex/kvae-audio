@@ -6,7 +6,7 @@
     <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
   </picture>
 
-  <a href="https://huggingface.co/kandinskylab/KVAE-Audio">🤗HuggingFace</a> | <a href="https://github.com/kandinskylab/kvae">KVAE GitHub</a> | <a href="https://habr.com/ru/companies/sberbank/articles/1053410/">Habr article</a> | <a href="https://kandinskylab.ai/">Project Page</a> | Technical Report (soon)
+  <a href="https://huggingface.co/kandinskylab/KVAE-Audio">🤗Hugging Face</a> | <a href="https://github.com/kandinskylab/kvae">KVAE GitHub</a> | <a href="https://habr.com/ru/companies/sberbank/articles/1053410/">Habr Article</a> | <a href="https://kandinskylab.ai/">Project Page</a> | Technical Report (soon)
 </div>
 
 <h1>KVAE-Audio</h1>
@@ -31,6 +31,23 @@ pip install -e ./kvae-audio
 ```
 
 Tested with Python 3.14.
+
+### Download weights
+
+Checkpoint `kvae-audio.pt` is hosted on Hugging Face: [`kandinskylab/KVAE-Audio`](https://huggingface.co/kandinskylab/KVAE-Audio).
+
+```bash
+pip install huggingface_hub
+hf download kandinskylab/KVAE-Audio kvae-audio.pt --local-dir .
+```
+
+Or from Python:
+
+```python
+from huggingface_hub import hf_hub_download
+
+weights_path = hf_hub_download("kandinskylab/KVAE-Audio", "kvae-audio.pt")
+```
 
 ### Run inference
 
