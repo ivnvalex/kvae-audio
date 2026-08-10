@@ -6,7 +6,7 @@
     <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
   </picture>
 
-  <a href="https://huggingface.co/kandinskylab/KVAE-Audio">🤗Hugging Face</a> | <a href="https://github.com/kandinskylab/kvae">KVAE GitHub</a> | <a href="https://habr.com/ru/companies/sberbank/articles/1053410/">Habr Article</a> | <a href="https://kandinskylab.ai/">Project Page</a> | Technical Report (soon)
+  <a href="https://huggingface.co/kandinskylab/KVAE-Audio">🤗Hugging Face</a> | <a href="https://github.com/kandinskylab/kvae">KVAE GitHub</a> | <a href="https://habr.com/ru/companies/sberbank/articles/1053410/">Habr Article</a> | <a href="https://kandinskylab.ai/">Project Page</a> | <a href="https://huggingface.co/papers/2608.05798">Technical Report</a>
 </div>
 
 <h1>KVAE-Audio</h1>
